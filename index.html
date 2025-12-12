@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SEVNTEEN — Clothing Brand</title>
+  <meta name="description" content="SEVNTEEN clothing — Trust in your vision." />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- three.js from CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.161.0/examples/js/controls/OrbitControls.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <h1>SEVNTEEN</h1>
+      <p class="tagline">Trust in your vision</p>
+    </div>
+    <nav class="main-nav">
+      <a href="#about">About</a>
+      <a href="#shop">Shop</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div id="canvas-holder" aria-label="3D spinning logo" role="img"></div>
+
+      <div class="hero-copy">
+        <h2>Elevate your look — Members only drop coming soon</h2>
+        <p>Hand-crafted designs. Signature Sevnteen aesthetic.</p>
+        <a class="cta" href="#shop">Shop the drop</a>
+      </div>
+    </section>
+
+    <section id="about" class="info">
+      <h3>About SEVNTEEN</h3>
+      <p>SEVNTEEN is a clothing brand focused on elevated streetwear with bold typography and timeless silhouettes. We make pieces to inspire and elevate.</p>
+    </section>
+
+    <section id="shop" class="grid">
+      <div class="card">
+        <h4>Signature Hoodie</h4>
+        <p>Limited run — rhinestone details, bold branding.</p>
+      </div>
+      <div class="card">
+        <h4>Caps & Accessories</h4>
+        <p>Curated accessories for the SEVNTEEN look.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="info">
+      <h3>Contact</h3>
+      <p>Email: <a href="mailto:hello@sevnteen.example">hello@sevnteen.example</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© <span id="year"></span> SEVNTEEN</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
